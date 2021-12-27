@@ -1,0 +1,6 @@
+---
+
+- name: neovim is installed
+  community.general.homebrew:
+    name: neovim
+    state: present

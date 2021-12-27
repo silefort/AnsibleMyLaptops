@@ -1,0 +1,11 @@
+---
+
+- name: ~/.config/nvim/ directory exists
+  ansible.builtin.file:
+    path: ~/.config/nvim
+    state: directory
+
+- name: ~/.config/nvim/init.vim file exists
+  ansible.builtin.file:
+    path: ~/.config/nvim/init.vim
+    state: touch
