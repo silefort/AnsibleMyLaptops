@@ -1,0 +1,5 @@
+---
+- hosts: macbook_pro
+  roles:
+    - role: commons
+      tags: [commons]
